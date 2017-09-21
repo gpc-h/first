@@ -1,1 +1,4 @@
 gpch is a nice man 
+git init 
+git add ..
+git commit -m ...
