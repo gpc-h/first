@@ -21,21 +21,40 @@
 
 
 创建SSH KEY:	ssh-keygen -t ras -C "注册的邮箱"
-打开公钥:		cat id-rsa.pub	#复制
+打开公钥:		cat id-rsa.pub	#复制公钥
 官网配置: settings -> SSH and GPG keys ->NEW SSH key
 测试秘钥:	ssh -T git@gitbub.com	#同时查看网页秘钥状态
 
 
-创建远程仓库:	网页首页上 NEW start #
+创建远程仓库:	网页首页上 NEW start ...
 关联远程仓库:	git remote add origin 远程地址(网页上.SSH地址)
 删除关联:		git remote rm origin
 
 拉取到本地:	git pull origin master
 推送到远程:	git push origin master
+忽略推送:	创建.gitignore文件,写入不推送文件的名字
 
 从远程库克隆:	git clone 远程地址
 
+创建分支:	git branch 分支名
+切换分支:	git checkout 分支名
 
+创建并且换:	git checkout -b 分支名
+查看当前分支:	git branch
+
+合并分支:	git merge 分支名(主分支上执行)
+删除分支:	git branch -d 分支名
+删除远程分支:	git push origin :分支名
+				git push origin --delete 分支名
+
+查看分支合并图:	git log --graph
+
+推送分支:	git push origin	master	#
+			git push origin	dev		#
+抓取分支:	git checkout -b dev origin/dev
+
+
+工作模式:
 
 
 
