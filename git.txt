@@ -1,0 +1,59 @@
+配置用户名:	get config --global user.name "用户名"
+配置邮箱:	get config --global user.email "注册时的邮箱"
+
+创建本地库:	get init
+创建文件夹:	tuoch gpc
+进入文件夹: cd gpc 
+编辑文件:	vi gpch
+
+添加到仓库:	git add gpch.txt
+提交到仓库:	git commit -m "注释信息"
+
+查看仓库状态: git status 	#如果修改则提示(红色字体)
+查看修改的内容:	git diff	#红色为原来的,绿色为新的内容
+查看提交日志:	git log
+
+版本退回:	git reset --hard HEAD^	#上一个版本
+			git reset --hard HEAD^^	#上上个版本
+			git reset --hard HEAD~数字	#退回到x版本
+历史命令:	git reflog
+撤销修改:	git checkout -- 文件名
+
+
+创建SSH KEY:	ssh-keygen -t ras -C "注册的邮箱"
+打开公钥:		cat id-rsa.pub	#复制
+官网配置: settings -> SSH and GPG keys ->NEW SSH key
+测试秘钥:	ssh -T git@gitbub.com	#同时查看网页秘钥状态
+
+
+创建远程仓库:	网页首页上 NEW start #
+关联远程仓库:	git remote add origin 远程地址(网页上.SSH地址)
+删除关联:		git remote rm origin
+
+拉取到本地:	git pull origin master
+推送到远程:	git push origin master
+
+从远程库克隆:	git clone 远程地址
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
