@@ -52,7 +52,7 @@ itsdangerous==0.24
 jdcal==1.3
 jedi==0.11.0
 jieba==0.39
-Jinja2==2.9.6
+Jinja2==2.11.3
 kombu==3.0.37
 lml==0.0.1
 lxml==3.7.3
