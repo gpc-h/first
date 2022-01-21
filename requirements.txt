@@ -46,7 +46,7 @@ future==0.16.0
 hyperlink==17.3.1
 idna==2.6
 incremental==17.5.0
-ipython==6.2.1
+ipython==7.16.3
 ipython-genutils==0.2.0
 itsdangerous==0.24
 jdcal==1.3
